@@ -1,0 +1,45 @@
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f1f1f1;
+    border-radius: 10px;
+
+    label{
+        display: block;
+        font-style: 18px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 1rem;
+        color: #5e0341;
+    }
+
+    input, textarea{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        border: 1px solid #e2e2e2;
+    }
+
+    textarea{
+        height: 150px;
+        resize: none;
+    }
+
+    .btn{
+        width: 100px;
+        background: #5e0341;
+        padding: 1rem;
+        color: white;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+        border-radius: 5px;
+        font-weight: bold;
+
+        &:hover{
+            background: #d40894;
+        }
+    }
+}
